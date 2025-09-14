@@ -1,0 +1,546 @@
+{
+  "title": "Image Preference Survey",
+  "description": "Please select the image with the best preservation, aesthetic and alignment to the instruction",
+  "pages": [
+    {
+      "id": 1,
+      "prompt": "Replace the thatched roof with a modern angled roof with solar panels, change the white walls to dark panels, add large glass windows, install a vertical garden on one side of the house, place drones in the sky, and replace the cow with a robotic lawn mower among sheep on artificial grass.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/0.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/0.png",
+        "alt": "Replace the thatched roof with a modern angled roof with solar panels, change the white walls to dark panels, add large glass windows, install a vertical garden on one side of the house, place drones in the sky, and replace the cow with a robotic lawn mower among sheep on artificial grass.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/0.png",
+        "alt": "Replace the thatched roof with a modern angled roof with solar panels, change the white walls to dark panels, add large glass windows, install a vertical garden on one side of the house, place drones in the sky, and replace the cow with a robotic lawn mower among sheep on artificial grass.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 2,
+      "prompt": "Apply a rust texture to the wrench. Replace the second wrench further along the workbench with a screwdriver that has a wooden handle. Add copper nuts and bolts lines on the edge of the workbench to the left. Adjust the lighting to give a warmer and more dramatic effect in the room.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/1.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/1.png",
+        "alt": "Apply a rust texture to the wrench. Replace the second wrench further along the workbench with a screwdriver that has a wooden handle. Add copper nuts and bolts lines on the edge of the workbench to the left. Adjust the lighting to give a warmer and more dramatic effect in the room.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/1.png",
+        "alt": "Apply a rust texture to the wrench. Replace the second wrench further along the workbench with a screwdriver that has a wooden handle. Add copper nuts and bolts lines on the edge of the workbench to the left. Adjust the lighting to give a warmer and more dramatic effect in the room.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 3,
+      "prompt": "Remove the four almonds completely. Replace the salmon with a raw steak. Keep the placement of everything else as is.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/10.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/maestro/10.png",
+        "alt": "Remove the four almonds completely. Replace the salmon with a raw steak. Keep the placement of everything else as is.",
+        "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/10.png",
+        "alt": "Remove the four almonds completely. Replace the salmon with a raw steak. Keep the placement of everything else as is.",
+        "method": "fluxKontext"
+      }
+    },
+    {
+      "id": 4,
+      "prompt": "Change the color of the kitchen cabinets to be vintage green. Add a stuffed turkey cooking inside the oven visible from the window. Add a stack of exactly three pots on the kitchen countertop and one single frying pan on the stove.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/11.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/11.png",
+        "alt": "Change the color of the kitchen cabinets to be vintage green. Add a stuffed turkey cooking inside the oven visible from the window. Add a stack of exactly three pots on the kitchen countertop and one single frying pan on the stove.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/11.png",
+        "alt": "Change the color of the kitchen cabinets to be vintage green. Add a stuffed turkey cooking inside the oven visible from the window. Add a stack of exactly three pots on the kitchen countertop and one single frying pan on the stove.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 5,
+      "prompt": "Remove the lemon slices inside the glass, fill the glass with orange juice and turn the slice on the rim into an orange slice.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/12.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/12.png",
+        "alt": "Remove the lemon slices inside the glass, fill the glass with orange juice and turn the slice on the rim into an orange slice.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/12.png",
+        "alt": "Remove the lemon slices inside the glass, fill the glass with orange juice and turn the slice on the rim into an orange slice.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 6,
+      "prompt": "Edit the sign that says 'Fast Lane' to say 'Slow Lane', but keep the style, font and rest of the sign as is. Replace the flag hung on the wall to the right with an American flag. Change the white part of the car's tires to be yellow. Maintain the rest of the image composition.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/13.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/maestro/13.png",
+        "alt": "Edit the sign that says 'Fast Lane' to say 'Slow Lane', but keep the style, font and rest of the sign as is. Replace the flag hung on the wall to the right with an American flag. Change the white part of the car's tires to be yellow. Maintain the rest of the image composition.",
+        "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/13.png",
+        "alt": "Edit the sign that says 'Fast Lane' to say 'Slow Lane', but keep the style, font and rest of the sign as is. Replace the flag hung on the wall to the right with an American flag. Change the white part of the car's tires to be yellow. Maintain the rest of the image composition.",
+        "method": "fluxKontext"
+      }
+    },
+    {
+      "id": 7,
+      "prompt": "Transform the scene into a thunderstorm scene with realistic lightning bolts striking the castle and heavy rain falling. Add a pack of four wolves on the grass at the base of the rocks and make all of them howl up at the sky. The castle and rocky terrain layout should not change.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/14.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/14.png",
+        "alt": "Transform the scene into a thunderstorm scene with realistic lightning bolts striking the castle and heavy rain falling. Add a pack of four wolves on the grass at the base of the rocks and make all of them howl up at the sky. The castle and rocky terrain layout should not change.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/14.png",
+        "alt": "Transform the scene into a thunderstorm scene with realistic lightning bolts striking the castle and heavy rain falling. Add a pack of four wolves on the grass at the base of the rocks and make all of them howl up at the sky. The castle and rocky terrain layout should not change.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 8,
+      "prompt": "Change the style of this image to be an oil painting. Add a fresh mango to the left of the pineapple. In their background add a forest of a apple trees.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/15.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/15.png",
+        "alt": "Change the style of this image to be an oil painting. Add a fresh mango to the left of the pineapple. In their background add a forest of a apple trees.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/15.png",
+        "alt": "Change the style of this image to be an oil painting. Add a fresh mango to the left of the pineapple. In their background add a forest of a apple trees.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 9,
+      "prompt": "Alter the grassy mountain terrain to the left and right to be a rocky terrain. Flip the direction of the 'SUMMIT' sign to point left. Change the hiker's jacket to be blue. Add two more clouds in the sky to the right of the existing lone cloud.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/16.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/16.png",
+        "alt": "Alter the grassy mountain terrain to the left and right to be a rocky terrain. Flip the direction of the 'SUMMIT' sign to point left. Change the hiker's jacket to be blue. Add two more clouds in the sky to the right of the existing lone cloud.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/16.png",
+        "alt": "Alter the grassy mountain terrain to the left and right to be a rocky terrain. Flip the direction of the 'SUMMIT' sign to point left. Change the hiker's jacket to be blue. Add two more clouds in the sky to the right of the existing lone cloud.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 10,
+      "prompt": "Inpaint so that it is visible that the zebra is drinking water from a stream. Add a mother baboon with a baby baboon on her back climbing up the tree.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/17.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/17.png",
+        "alt": "Inpaint so that it is visible that the zebra is drinking water from a stream. Add a mother baboon with a baby baboon on her back climbing up the tree.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/17.png",
+        "alt": "Inpaint so that it is visible that the zebra is drinking water from a stream. Add a mother baboon with a baby baboon on her back climbing up the tree.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 11,
+      "prompt": "Introduce a dramatic sunset with a large sun near the horizon and intense orange and red colors in the sky, while darkening the clouds to create a more striking contrast",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/18.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/maestro/18.png",
+        "alt": "Introduce a dramatic sunset with a large sun near the horizon and intense orange and red colors in the sky, while darkening the clouds to create a more striking contrast",
+        "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/18.png",
+        "alt": "Introduce a dramatic sunset with a large sun near the horizon and intense orange and red colors in the sky, while darkening the clouds to create a more striking contrast",
+        "method": "fluxKontext"
+      }
+    },
+    {
+      "id": 12,
+      "prompt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/19.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/19.png",
+        "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/19.png",
+        "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 13,
+      "prompt": "Replace the monarch butterfly with a realistic, fuzzy bumblebee with yellow and black stripes, hovering closely above the same pink peony flower, maintaining the same background and overall composition of the image.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/2.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/maestro/2.png",
+        "alt": "Replace the monarch butterfly with a realistic, fuzzy bumblebee with yellow and black stripes, hovering closely above the same pink peony flower, maintaining the same background and overall composition of the image.",
+        "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/2.png",
+        "alt": "Replace the monarch butterfly with a realistic, fuzzy bumblebee with yellow and black stripes, hovering closely above the same pink peony flower, maintaining the same background and overall composition of the image.",
+        "method": "fluxKontext"
+      }
+    },
+    {
+      "id": 14,
+      "prompt": "Transform the elderly man into a young ballet dancer, change the traditional Tai Chi attire to a ballet outfit, and adjust the pose to a ballet stance while maintaining the serene park setting and morning light.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/20.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/maestro/20.png",
+        "alt": "Transform the elderly man into a young ballet dancer, change the traditional Tai Chi attire to a ballet outfit, and adjust the pose to a ballet stance while maintaining the serene park setting and morning light.",
+        "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/20.png",
+        "alt": "Transform the elderly man into a young ballet dancer, change the traditional Tai Chi attire to a ballet outfit, and adjust the pose to a ballet stance while maintaining the serene park setting and morning light.",
+        "method": "fluxKontext"
+      }
+    },
+    {
+      "id": 15,
+      "prompt": "Fully remove the dog and inpaint the scene behind it. Change the season to winter, add snow on the ground and falling from the sky, and reduce the number of people in the park.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/21.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/maestro/21.png",
+        "alt": "Fully remove the dog and inpaint the scene behind it. Change the season to winter, add snow on the ground and falling from the sky, and reduce the number of people in the park.",
+        "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/21.png",
+        "alt": "Fully remove the dog and inpaint the scene behind it. Change the season to winter, add snow on the ground and falling from the sky, and reduce the number of people in the park.",
+        "method": "fluxKontext"
+      }
+    },
+    {
+      "id": 16,
+      "prompt": "Replace the beige leather rocking chair with a beige fabric upholstered modern recliner with a squared-off design and a matching fabric pillow. Remove the gray knitted throw blanket.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/22.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/22.png",
+        "alt": "Replace the beige leather rocking chair with a beige fabric upholstered modern recliner with a squared-off design and a matching fabric pillow. Remove the gray knitted throw blanket.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/22.png",
+        "alt": "Replace the beige leather rocking chair with a beige fabric upholstered modern recliner with a squared-off design and a matching fabric pillow. Remove the gray knitted throw blanket.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 17,
+      "prompt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/23.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/23.png",
+        "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/23.png",
+        "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 18,
+      "prompt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/24.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/24.png",
+        "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/24.png",
+        "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 19,
+      "prompt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/25.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/maestro/25.png",
+        "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
+        "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/25.png",
+        "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
+        "method": "fluxKontext"
+      }
+    },
+    {
+      "id": 20,
+      "prompt": "Transform this image to be a Renaissance style painting. Remove the light fixture in the back and only let natural window light in. Remove the girl's glasses. Replace her pencil with a quill and her notebook with an old parchment. Preserve the rest of her pose, expression and appearance.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/26.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/maestro/26.png",
+        "alt": "Transform this image to be a Renaissance style painting. Remove the light fixture in the back and only let natural window light in. Remove the girl's glasses. Replace her pencil with a quill and her notebook with an old parchment. Preserve the rest of her pose, expression and appearance.",
+        "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/26.png",
+        "alt": "Transform this image to be a Renaissance style painting. Remove the light fixture in the back and only let natural window light in. Remove the girl's glasses. Replace her pencil with a quill and her notebook with an old parchment. Preserve the rest of her pose, expression and appearance.",
+        "method": "fluxKontext"
+      }
+    },
+    {
+      "id": 21,
+      "prompt": "Replace the two red sports cars with two 1800s era wooden horse carriages being pulled by horses. One of the horses should be black and the other should be white. Alter the paved asphalt to be a dirt road. Add a wooden sign on the road that says in chalk 'Speed Limit 60'. Keep the rest of the image as well as the background scenery the same.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/27.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/maestro/27.png",
+        "alt": "Replace the two red sports cars with two 1800s era wooden horse carriages being pulled by horses. One of the horses should be black and the other should be white. Alter the paved asphalt to be a dirt road. Add a wooden sign on the road that says in chalk 'Speed Limit 60'. Keep the rest of the image as well as the background scenery the same.",
+        "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/27.png",
+        "alt": "Replace the two red sports cars with two 1800s era wooden horse carriages being pulled by horses. One of the horses should be black and the other should be white. Alter the paved asphalt to be a dirt road. Add a wooden sign on the road that says in chalk 'Speed Limit 60'. Keep the rest of the image as well as the background scenery the same.",
+        "method": "fluxKontext"
+      }
+    },
+    {
+      "id": 22,
+      "prompt": "Open the laptop to show a space-themed skin covering the entire keyboard surface. Replace the pen with a small digital alarm clock that reads 03:13 in amber LED light. The screen of the laptop should be off.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/28.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/28.png",
+        "alt": "Open the laptop to show a space-themed skin covering the entire keyboard surface. Replace the pen with a small digital alarm clock that reads 03:13 in amber LED light. The screen of the laptop should be off.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/28.png",
+        "alt": "Open the laptop to show a space-themed skin covering the entire keyboard surface. Replace the pen with a small digital alarm clock that reads 03:13 in amber LED light. The screen of the laptop should be off.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 23,
+      "prompt": "Add anthropomorphic features to the teapot, including eyes, a mouth, arms with hands, and legs with feet, while maintaining the overall teapot shape and design elements.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/29.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/29.png",
+        "alt": "Add anthropomorphic features to the teapot, including eyes, a mouth, arms with hands, and legs with feet, while maintaining the overall teapot shape and design elements.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/29.png",
+        "alt": "Add anthropomorphic features to the teapot, including eyes, a mouth, arms with hands, and legs with feet, while maintaining the overall teapot shape and design elements.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 24,
+      "prompt": "Transform the setting to a vibrant jazz club scene, with the dancer now in a sparkling costume performing a lively jazz dance, and replace the temple backdrop with a stage, curtains, and an audience under warm stage lighting.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/3.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/maestro/3.png",
+        "alt": "Transform the setting to a vibrant jazz club scene, with the dancer now in a sparkling costume performing a lively jazz dance, and replace the temple backdrop with a stage, curtains, and an audience under warm stage lighting.",
+        "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/3.png",
+        "alt": "Transform the setting to a vibrant jazz club scene, with the dancer now in a sparkling costume performing a lively jazz dance, and replace the temple backdrop with a stage, curtains, and an audience under warm stage lighting.",
+        "method": "fluxKontext"
+      }
+    },
+    {
+      "id": 25,
+      "prompt": "Rotate the Ferrari so that the car is facing forwards and we see the front. Make the car black instead of red. Change the title above it to be 'GREAT MOTORCARS' instead of 'MILLER MOTORCARS' while maintaining the same font.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/4.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/maestro/4.png",
+        "alt": "Rotate the Ferrari so that the car is facing forwards and we see the front. Make the car black instead of red. Change the title above it to be 'GREAT MOTORCARS' instead of 'MILLER MOTORCARS' while maintaining the same font.",
+        "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/4.png",
+        "alt": "Rotate the Ferrari so that the car is facing forwards and we see the front. Make the car black instead of red. Change the title above it to be 'GREAT MOTORCARS' instead of 'MILLER MOTORCARS' while maintaining the same font.",
+        "method": "fluxKontext"
+      }
+    },
+    {
+      "id": 26,
+      "prompt": "Change the background so that the bike is leaning against a gaurdrail on a highway with a view of the ocean. Keep everything about the bike the same except it's color, make it red.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/5.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/maestro/5.png",
+        "alt": "Change the background so that the bike is leaning against a gaurdrail on a highway with a view of the ocean. Keep everything about the bike the same except it's color, make it red.",
+        "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/5.png",
+        "alt": "Change the background so that the bike is leaning against a gaurdrail on a highway with a view of the ocean. Keep everything about the bike the same except it's color, make it red.",
+        "method": "fluxKontext"
+      }
+    },
+    {
+      "id": 27,
+      "prompt": "Change the color of the car to be white and make the license plate read 'JUST MARRIED'. Instead of it being daytime, make it nighttime with a starry sky. Add streetlights so the road appears bright and add people on both sides of the road who are cheering!",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/6.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/6.png",
+        "alt": "Change the color of the car to be white and make the license plate read 'JUST MARRIED'. Instead of it being daytime, make it nighttime with a starry sky. Add streetlights so the road appears bright and add people on both sides of the road who are cheering!",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/6.png",
+        "alt": "Change the color of the car to be white and make the license plate read 'JUST MARRIED'. Instead of it being daytime, make it nighttime with a starry sky. Add streetlights so the road appears bright and add people on both sides of the road who are cheering!",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 28,
+      "prompt": "Fill in the empty white hole on the center watermelon slice as well as the cucumber on the right of the cake. Add three more black seeds to the watermelom for a total of six. Maintain the rest of the image and keep the cake and other compositions the same.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/7.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/7.png",
+        "alt": "Fill in the empty white hole on the center watermelon slice as well as the cucumber on the right of the cake. Add three more black seeds to the watermelom for a total of six. Maintain the rest of the image and keep the cake and other compositions the same.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/7.png",
+        "alt": "Fill in the empty white hole on the center watermelon slice as well as the cucumber on the right of the cake. Add three more black seeds to the watermelom for a total of six. Maintain the rest of the image and keep the cake and other compositions the same.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 29,
+      "prompt": "Instead of a square corner shelf, make it a triangular corner shelf. Change the color of the circle light to be neon blue and update the lighting in the room to reflect that.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/8.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/8.png",
+        "alt": "Instead of a square corner shelf, make it a triangular corner shelf. Change the color of the circle light to be neon blue and update the lighting in the room to reflect that.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/8.png",
+        "alt": "Instead of a square corner shelf, make it a triangular corner shelf. Change the color of the circle light to be neon blue and update the lighting in the room to reflect that.",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 30,
+      "prompt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
+      "referenceImage": {
+        "url": "generation_test/reference_editing_pics/9.png",
+        "alt": "Reference image"
+      },
+      "imageA": {
+        "url": "generation_test/fluxKontext/9.png",
+        "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
+        "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/9.png",
+        "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
+        "method": "maestro"
+      }
+    }
+  ]
+}

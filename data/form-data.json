@@ -1,0 +1,60 @@
+{
+  "title": "Image Preference Survey",
+  "description": "Please select the image with the best technical fidelity, aesthetic and aligment to the prompt",
+  "pages": [
+    {
+      "id": 1,
+      "prompt": "Which landscape looks more peaceful to you?",
+      "referenceImage": {
+        "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop&crop=center",
+        "alt": "Reference landscape for peaceful comparison"
+      },
+      "imageA": {
+        "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+        "alt": "Mountain landscape A",
+        "method": "maestro"
+      },
+      "imageB": {
+        "url": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=400&h=300&fit=crop",
+        "alt": "Forest landscape B",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 2,
+      "prompt": "Which architectural style appeals to you more?",
+      "referenceImage": {
+        "url": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop&crop=center",
+        "alt": "Reference architecture for style comparison"
+      },
+      "imageA": {
+        "url": "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=400&h=300&fit=crop",
+        "alt": "Modern architecture A",
+        "method": "maestro"
+      },
+      "imageB": {
+        "url": "https://images.unsplash.com/photo-1518780664697-55e3ad937233?w=400&h=300&fit=crop",
+        "alt": "Classical architecture B",
+        "method": "maestro"
+      }
+    },
+    {
+      "id": 3,
+      "prompt": "Which color scheme do you find more attractive?",
+      "referenceImage": {
+        "url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop&crop=center",
+        "alt": "Reference colors for scheme comparison"
+      },
+      "imageA": {
+        "url": "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=400&h=300&fit=crop",
+        "alt": "Warm colors A",
+        "method": "maestro"
+      },
+      "imageB": {
+        "url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop",
+        "alt": "Cool colors B",
+        "method": "maestro"
+      }
+    }
+  ]
+}

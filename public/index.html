@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maestro Form - Image Preference Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 id="survey-title">Loading...</h1>
+            <p id="survey-description">Loading...</p>
+            <div class="progress-bar">
+                <div class="progress-fill" id="progress-fill"></div>
+            </div>
+            <p class="progress-text">
+                Page <span id="current-page">0</span> of <span id="total-pages">0</span>
+            </p>
+        </header>
+
+        <main class="main-content">
+            <!-- Code Entry -->
+            <div id="code-entry" class="code-entry">
+                <div class="code-entry-content">
+                    <h2>Enter Survey Code</h2>
+                    <p>Please enter the survey code provided to you:</p>
+                    <div class="code-input-group">
+                        <input type="text" id="survey-code" placeholder="Enter survey code" maxlength="8" />
+                        <button id="code-submit-btn" class="nav-btn primary">Start Survey</button>
+                    </div>
+                    <div id="code-error" class="code-error" style="display: none;">
+                        <p>Invalid code. Please check your code and try again.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Loading State -->
+            <div id="loading" class="loading" style="display: none;">
+                <div class="spinner"></div>
+                <p>Loading survey...</p>
+            </div>
+
+            <!-- Survey Form -->
+            <div id="survey-form" class="survey-form" style="display: none;">
+                <div class="temp-image-section">
+                    <img id="reference-image" src="" alt="" class="temp-reference-image" />
+                </div>
+                
+                <div class="prompt-section">
+                    <h2 id="current-prompt">Loading prompt...</h2>
+                </div>
+
+                <div class="images-section">
+                    <div class="image-option" id="option-a" data-choice="A">
+                        <img id="image-a" src="" alt="" />
+                        <div class="image-overlay">
+                            <span class="choice-label">A</span>
+                        </div>
+                    </div>
+                    
+                    <div class="image-option" id="option-b" data-choice="B">
+                        <img id="image-b" src="" alt="" />
+                        <div class="image-overlay">
+                            <span class="choice-label">B</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="navigation">
+                    <button id="prev-btn" class="nav-btn secondary" disabled>Previous</button>
+                    <button id="next-btn" class="nav-btn primary" disabled>Next</button>
+                </div>
+            </div>
+
+            <!-- Completion Screen -->
+            <div id="completion" class="completion" style="display: none;">
+                <div class="completion-content">
+                    <h2>🎉 Survey Complete!</h2>
+                    <p>Thank you for your participation. Your responses have been recorded.</p>
+                    <div class="completion-details">
+                        <p><strong>Session ID:</strong> <span id="session-id"></span></p>
+                        <p><strong>Responses:</strong> <span id="total-responses"></span></p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Error State -->
+            <div id="error" class="error" style="display: none;">
+                <h2>⚠️ Error</h2>
+                <p id="error-message">Something went wrong. Please try again.</p>
+                <button id="retry-btn" class="nav-btn primary">Retry</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
