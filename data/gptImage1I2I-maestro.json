@@ -1,6 +1,6 @@
 {
   "title": "Image Preference Survey",
-  "description": "Please select the edited image with the best preservation, aesthetic and alignment to the instruction",
+  "description": "Please select the edited image with the best preservation, aesthetic and alignment to the instruction given the input reference image",
   "pages": [
     {
       "id": 1,
@@ -28,14 +28,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/1.png",
-        "alt": "Apply a rust texture to the wrench. Replace the second wrench further along the workbench with a screwdriver that has a wooden handle. Add copper nuts and bolts lines on the edge of the workbench to the left. Adjust the lighting to give a warmer and more dramatic effect in the room.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/gptImage1I2I/1.png",
         "alt": "Apply a rust texture to the wrench. Replace the second wrench further along the workbench with a screwdriver that has a wooden handle. Add copper nuts and bolts lines on the edge of the workbench to the left. Adjust the lighting to give a warmer and more dramatic effect in the room.",
         "method": "gptImage1I2I"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/1.png",
+        "alt": "Apply a rust texture to the wrench. Replace the second wrench further along the workbench with a screwdriver that has a wooden handle. Add copper nuts and bolts lines on the edge of the workbench to the left. Adjust the lighting to give a warmer and more dramatic effect in the room.",
+        "method": "maestro"
       }
     },
     {
@@ -46,14 +46,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/10.png",
-        "alt": "Remove the four almonds completely. Replace the salmon with a raw steak. Keep the placement of everything else as is.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/10.png",
         "alt": "Remove the four almonds completely. Replace the salmon with a raw steak. Keep the placement of everything else as is.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/10.png",
+        "alt": "Remove the four almonds completely. Replace the salmon with a raw steak. Keep the placement of everything else as is.",
+        "method": "gptImage1I2I"
       }
     },
     {
@@ -82,14 +82,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/12.png",
-        "alt": "Remove the lemon slices inside the glass, fill the glass with orange juice and turn the slice on the rim into an orange slice.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/gptImage1I2I/12.png",
         "alt": "Remove the lemon slices inside the glass, fill the glass with orange juice and turn the slice on the rim into an orange slice.",
         "method": "gptImage1I2I"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/12.png",
+        "alt": "Remove the lemon slices inside the glass, fill the glass with orange juice and turn the slice on the rim into an orange slice.",
+        "method": "maestro"
       }
     },
     {
@@ -118,14 +118,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/14.png",
-        "alt": "Transform the scene into a thunderstorm scene with realistic lightning bolts striking the castle and heavy rain falling. Add a pack of four wolves on the grass at the base of the rocks and make all of them howl up at the sky. The castle and rocky terrain layout should not change.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/gptImage1I2I/14.png",
         "alt": "Transform the scene into a thunderstorm scene with realistic lightning bolts striking the castle and heavy rain falling. Add a pack of four wolves on the grass at the base of the rocks and make all of them howl up at the sky. The castle and rocky terrain layout should not change.",
         "method": "gptImage1I2I"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/14.png",
+        "alt": "Transform the scene into a thunderstorm scene with realistic lightning bolts striking the castle and heavy rain falling. Add a pack of four wolves on the grass at the base of the rocks and make all of them howl up at the sky. The castle and rocky terrain layout should not change.",
+        "method": "maestro"
       }
     },
     {
@@ -208,14 +208,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/19.png",
-        "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/19.png",
         "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/19.png",
+        "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
+        "method": "gptImage1I2I"
       }
     },
     {
@@ -280,14 +280,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/22.png",
-        "alt": "Replace the beige leather rocking chair with a beige fabric upholstered modern recliner with a squared-off design and a matching fabric pillow. Remove the gray knitted throw blanket.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/gptImage1I2I/22.png",
         "alt": "Replace the beige leather rocking chair with a beige fabric upholstered modern recliner with a squared-off design and a matching fabric pillow. Remove the gray knitted throw blanket.",
         "method": "gptImage1I2I"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/22.png",
+        "alt": "Replace the beige leather rocking chair with a beige fabric upholstered modern recliner with a squared-off design and a matching fabric pillow. Remove the gray knitted throw blanket.",
+        "method": "maestro"
       }
     },
     {
@@ -298,14 +298,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/23.png",
-        "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/23.png",
         "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/23.png",
+        "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
+        "method": "gptImage1I2I"
       }
     },
     {
@@ -316,14 +316,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/24.png",
-        "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/24.png",
         "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/24.png",
+        "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
+        "method": "gptImage1I2I"
       }
     },
     {
@@ -334,14 +334,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/25.png",
-        "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/25.png",
         "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/25.png",
+        "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
+        "method": "gptImage1I2I"
       }
     },
     {
@@ -352,14 +352,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/26.png",
-        "alt": "Transform this image to be a Renaissance style painting. Remove the light fixture in the back and only let natural window light in. Remove the girl's glasses. Replace her pencil with a quill and her notebook with an old parchment. Preserve the rest of her pose, expression and appearance.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/26.png",
         "alt": "Transform this image to be a Renaissance style painting. Remove the light fixture in the back and only let natural window light in. Remove the girl's glasses. Replace her pencil with a quill and her notebook with an old parchment. Preserve the rest of her pose, expression and appearance.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/26.png",
+        "alt": "Transform this image to be a Renaissance style painting. Remove the light fixture in the back and only let natural window light in. Remove the girl's glasses. Replace her pencil with a quill and her notebook with an old parchment. Preserve the rest of her pose, expression and appearance.",
+        "method": "gptImage1I2I"
       }
     },
     {
@@ -442,14 +442,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/4.png",
-        "alt": "Rotate the Ferrari so that the car is facing forwards and we see the front. Make the car black instead of red. Change the title above it to be 'GREAT MOTORCARS' instead of 'MILLER MOTORCARS' while maintaining the same font.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/gptImage1I2I/4.png",
         "alt": "Rotate the Ferrari so that the car is facing forwards and we see the front. Make the car black instead of red. Change the title above it to be 'GREAT MOTORCARS' instead of 'MILLER MOTORCARS' while maintaining the same font.",
         "method": "gptImage1I2I"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/4.png",
+        "alt": "Rotate the Ferrari so that the car is facing forwards and we see the front. Make the car black instead of red. Change the title above it to be 'GREAT MOTORCARS' instead of 'MILLER MOTORCARS' while maintaining the same font.",
+        "method": "maestro"
       }
     },
     {
@@ -496,14 +496,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/7.png",
-        "alt": "Fill in the empty white hole on the center watermelon slice as well as the cucumber on the right of the cake. Add three more black seeds to the watermelom for a total of six. Maintain the rest of the image and keep the cake and other compositions the same.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/7.png",
         "alt": "Fill in the empty white hole on the center watermelon slice as well as the cucumber on the right of the cake. Add three more black seeds to the watermelom for a total of six. Maintain the rest of the image and keep the cake and other compositions the same.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/7.png",
+        "alt": "Fill in the empty white hole on the center watermelon slice as well as the cucumber on the right of the cake. Add three more black seeds to the watermelom for a total of six. Maintain the rest of the image and keep the cake and other compositions the same.",
+        "method": "gptImage1I2I"
       }
     },
     {
@@ -514,14 +514,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/8.png",
-        "alt": "Instead of a square corner shelf, make it a triangular corner shelf. Change the color of the circle light to be neon blue and update the lighting in the room to reflect that.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/gptImage1I2I/8.png",
         "alt": "Instead of a square corner shelf, make it a triangular corner shelf. Change the color of the circle light to be neon blue and update the lighting in the room to reflect that.",
         "method": "gptImage1I2I"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/8.png",
+        "alt": "Instead of a square corner shelf, make it a triangular corner shelf. Change the color of the circle light to be neon blue and update the lighting in the room to reflect that.",
+        "method": "maestro"
       }
     },
     {
@@ -532,14 +532,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/9.png",
-        "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/gptImage1I2I/9.png",
         "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
         "method": "gptImage1I2I"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/9.png",
+        "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
+        "method": "maestro"
       }
     }
   ]

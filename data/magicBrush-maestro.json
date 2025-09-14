@@ -1,6 +1,6 @@
 {
   "title": "Image Preference Survey",
-  "description": "Please select the edited image with the best preservation, aesthetic and alignment to the instruction",
+  "description": "Please select the edited image with the best preservation, aesthetic and alignment to the instruction given the input reference image",
   "pages": [
     {
       "id": 1,
@@ -10,14 +10,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/0.png",
-        "alt": "Replace the thatched roof with a modern angled roof with solar panels, change the white walls to dark panels, add large glass windows, install a vertical garden on one side of the house, place drones in the sky, and replace the cow with a robotic lawn mower among sheep on artificial grass.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/0.png",
         "alt": "Replace the thatched roof with a modern angled roof with solar panels, change the white walls to dark panels, add large glass windows, install a vertical garden on one side of the house, place drones in the sky, and replace the cow with a robotic lawn mower among sheep on artificial grass.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/0.png",
+        "alt": "Replace the thatched roof with a modern angled roof with solar panels, change the white walls to dark panels, add large glass windows, install a vertical garden on one side of the house, place drones in the sky, and replace the cow with a robotic lawn mower among sheep on artificial grass.",
+        "method": "maestro"
       }
     },
     {
@@ -46,14 +46,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/10.png",
-        "alt": "Remove the four almonds completely. Replace the salmon with a raw steak. Keep the placement of everything else as is.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/10.png",
         "alt": "Remove the four almonds completely. Replace the salmon with a raw steak. Keep the placement of everything else as is.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/10.png",
+        "alt": "Remove the four almonds completely. Replace the salmon with a raw steak. Keep the placement of everything else as is.",
+        "method": "maestro"
       }
     },
     {
@@ -100,14 +100,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/13.png",
-        "alt": "Edit the sign that says 'Fast Lane' to say 'Slow Lane', but keep the style, font and rest of the sign as is. Replace the flag hung on the wall to the right with an American flag. Change the white part of the car's tires to be yellow. Maintain the rest of the image composition.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/13.png",
         "alt": "Edit the sign that says 'Fast Lane' to say 'Slow Lane', but keep the style, font and rest of the sign as is. Replace the flag hung on the wall to the right with an American flag. Change the white part of the car's tires to be yellow. Maintain the rest of the image composition.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/13.png",
+        "alt": "Edit the sign that says 'Fast Lane' to say 'Slow Lane', but keep the style, font and rest of the sign as is. Replace the flag hung on the wall to the right with an American flag. Change the white part of the car's tires to be yellow. Maintain the rest of the image composition.",
+        "method": "maestro"
       }
     },
     {
@@ -154,14 +154,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/magicBrush/16.png",
-        "alt": "Alter the grassy mountain terrain to the left and right to be a rocky terrain. Flip the direction of the 'SUMMIT' sign to point left. Change the hiker's jacket to be blue. Add two more clouds in the sky to the right of the existing lone cloud.",
-        "method": "magicBrush"
-      },
-      "imageB": {
         "url": "generation_test/maestro/16.png",
         "alt": "Alter the grassy mountain terrain to the left and right to be a rocky terrain. Flip the direction of the 'SUMMIT' sign to point left. Change the hiker's jacket to be blue. Add two more clouds in the sky to the right of the existing lone cloud.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/magicBrush/16.png",
+        "alt": "Alter the grassy mountain terrain to the left and right to be a rocky terrain. Flip the direction of the 'SUMMIT' sign to point left. Change the hiker's jacket to be blue. Add two more clouds in the sky to the right of the existing lone cloud.",
+        "method": "magicBrush"
       }
     },
     {
@@ -172,14 +172,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/17.png",
-        "alt": "Inpaint so that it is visible that the zebra is drinking water from a stream. Add a mother baboon with a baby baboon on her back climbing up the tree.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/17.png",
         "alt": "Inpaint so that it is visible that the zebra is drinking water from a stream. Add a mother baboon with a baby baboon on her back climbing up the tree.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/17.png",
+        "alt": "Inpaint so that it is visible that the zebra is drinking water from a stream. Add a mother baboon with a baby baboon on her back climbing up the tree.",
+        "method": "maestro"
       }
     },
     {
@@ -190,14 +190,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/magicBrush/18.png",
-        "alt": "Introduce a dramatic sunset with a large sun near the horizon and intense orange and red colors in the sky, while darkening the clouds to create a more striking contrast",
-        "method": "magicBrush"
-      },
-      "imageB": {
         "url": "generation_test/maestro/18.png",
         "alt": "Introduce a dramatic sunset with a large sun near the horizon and intense orange and red colors in the sky, while darkening the clouds to create a more striking contrast",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/magicBrush/18.png",
+        "alt": "Introduce a dramatic sunset with a large sun near the horizon and intense orange and red colors in the sky, while darkening the clouds to create a more striking contrast",
+        "method": "magicBrush"
       }
     },
     {
@@ -208,14 +208,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/magicBrush/19.png",
-        "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
-        "method": "magicBrush"
-      },
-      "imageB": {
         "url": "generation_test/maestro/19.png",
         "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/magicBrush/19.png",
+        "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
+        "method": "magicBrush"
       }
     },
     {
@@ -244,14 +244,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/20.png",
-        "alt": "Transform the elderly man into a young ballet dancer, change the traditional Tai Chi attire to a ballet outfit, and adjust the pose to a ballet stance while maintaining the serene park setting and morning light.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/20.png",
         "alt": "Transform the elderly man into a young ballet dancer, change the traditional Tai Chi attire to a ballet outfit, and adjust the pose to a ballet stance while maintaining the serene park setting and morning light.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/20.png",
+        "alt": "Transform the elderly man into a young ballet dancer, change the traditional Tai Chi attire to a ballet outfit, and adjust the pose to a ballet stance while maintaining the serene park setting and morning light.",
+        "method": "maestro"
       }
     },
     {
@@ -262,14 +262,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/magicBrush/21.png",
-        "alt": "Fully remove the dog and inpaint the scene behind it. Change the season to winter, add snow on the ground and falling from the sky, and reduce the number of people in the park.",
-        "method": "magicBrush"
-      },
-      "imageB": {
         "url": "generation_test/maestro/21.png",
         "alt": "Fully remove the dog and inpaint the scene behind it. Change the season to winter, add snow on the ground and falling from the sky, and reduce the number of people in the park.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/magicBrush/21.png",
+        "alt": "Fully remove the dog and inpaint the scene behind it. Change the season to winter, add snow on the ground and falling from the sky, and reduce the number of people in the park.",
+        "method": "magicBrush"
       }
     },
     {
@@ -280,14 +280,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/22.png",
-        "alt": "Replace the beige leather rocking chair with a beige fabric upholstered modern recliner with a squared-off design and a matching fabric pillow. Remove the gray knitted throw blanket.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/22.png",
         "alt": "Replace the beige leather rocking chair with a beige fabric upholstered modern recliner with a squared-off design and a matching fabric pillow. Remove the gray knitted throw blanket.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/22.png",
+        "alt": "Replace the beige leather rocking chair with a beige fabric upholstered modern recliner with a squared-off design and a matching fabric pillow. Remove the gray knitted throw blanket.",
+        "method": "maestro"
       }
     },
     {
@@ -298,14 +298,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/magicBrush/23.png",
-        "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
-        "method": "magicBrush"
-      },
-      "imageB": {
         "url": "generation_test/maestro/23.png",
         "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/magicBrush/23.png",
+        "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
+        "method": "magicBrush"
       }
     },
     {
@@ -316,14 +316,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/magicBrush/24.png",
-        "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
-        "method": "magicBrush"
-      },
-      "imageB": {
         "url": "generation_test/maestro/24.png",
         "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/magicBrush/24.png",
+        "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
+        "method": "magicBrush"
       }
     },
     {
@@ -370,14 +370,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/27.png",
-        "alt": "Replace the two red sports cars with two 1800s era wooden horse carriages being pulled by horses. One of the horses should be black and the other should be white. Alter the paved asphalt to be a dirt road. Add a wooden sign on the road that says in chalk 'Speed Limit 60'. Keep the rest of the image as well as the background scenery the same.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/27.png",
         "alt": "Replace the two red sports cars with two 1800s era wooden horse carriages being pulled by horses. One of the horses should be black and the other should be white. Alter the paved asphalt to be a dirt road. Add a wooden sign on the road that says in chalk 'Speed Limit 60'. Keep the rest of the image as well as the background scenery the same.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/27.png",
+        "alt": "Replace the two red sports cars with two 1800s era wooden horse carriages being pulled by horses. One of the horses should be black and the other should be white. Alter the paved asphalt to be a dirt road. Add a wooden sign on the road that says in chalk 'Speed Limit 60'. Keep the rest of the image as well as the background scenery the same.",
+        "method": "maestro"
       }
     },
     {
@@ -460,14 +460,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/magicBrush/5.png",
-        "alt": "Change the background so that the bike is leaning against a gaurdrail on a highway with a view of the ocean. Keep everything about the bike the same except it's color, make it red.",
-        "method": "magicBrush"
-      },
-      "imageB": {
         "url": "generation_test/maestro/5.png",
         "alt": "Change the background so that the bike is leaning against a gaurdrail on a highway with a view of the ocean. Keep everything about the bike the same except it's color, make it red.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/magicBrush/5.png",
+        "alt": "Change the background so that the bike is leaning against a gaurdrail on a highway with a view of the ocean. Keep everything about the bike the same except it's color, make it red.",
+        "method": "magicBrush"
       }
     },
     {
@@ -496,14 +496,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/magicBrush/7.png",
-        "alt": "Fill in the empty white hole on the center watermelon slice as well as the cucumber on the right of the cake. Add three more black seeds to the watermelom for a total of six. Maintain the rest of the image and keep the cake and other compositions the same.",
-        "method": "magicBrush"
-      },
-      "imageB": {
         "url": "generation_test/maestro/7.png",
         "alt": "Fill in the empty white hole on the center watermelon slice as well as the cucumber on the right of the cake. Add three more black seeds to the watermelom for a total of six. Maintain the rest of the image and keep the cake and other compositions the same.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/magicBrush/7.png",
+        "alt": "Fill in the empty white hole on the center watermelon slice as well as the cucumber on the right of the cake. Add three more black seeds to the watermelom for a total of six. Maintain the rest of the image and keep the cake and other compositions the same.",
+        "method": "magicBrush"
       }
     },
     {
@@ -532,14 +532,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/9.png",
-        "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/9.png",
         "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/9.png",
+        "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
+        "method": "maestro"
       }
     }
   ]

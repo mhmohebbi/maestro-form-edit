@@ -1,6 +1,6 @@
 {
   "title": "Image Preference Survey",
-  "description": "Please select the edited image with the best preservation, aesthetic and alignment to the instruction",
+  "description": "Please select the edited image with the best preservation, aesthetic and alignment to the instruction given the input reference image",
   "pages": [
     {
       "id": 1,
@@ -136,14 +136,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/fluxKontext/15.png",
-        "alt": "Change the style of this image to be an oil painting. Add a fresh mango to the left of the pineapple. In their background add a forest of a apple trees.",
-        "method": "fluxKontext"
-      },
-      "imageB": {
         "url": "generation_test/maestro/15.png",
         "alt": "Change the style of this image to be an oil painting. Add a fresh mango to the left of the pineapple. In their background add a forest of a apple trees.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/15.png",
+        "alt": "Change the style of this image to be an oil painting. Add a fresh mango to the left of the pineapple. In their background add a forest of a apple trees.",
+        "method": "fluxKontext"
       }
     },
     {
@@ -154,14 +154,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/16.png",
-        "alt": "Alter the grassy mountain terrain to the left and right to be a rocky terrain. Flip the direction of the 'SUMMIT' sign to point left. Change the hiker's jacket to be blue. Add two more clouds in the sky to the right of the existing lone cloud.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/fluxKontext/16.png",
         "alt": "Alter the grassy mountain terrain to the left and right to be a rocky terrain. Flip the direction of the 'SUMMIT' sign to point left. Change the hiker's jacket to be blue. Add two more clouds in the sky to the right of the existing lone cloud.",
         "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/16.png",
+        "alt": "Alter the grassy mountain terrain to the left and right to be a rocky terrain. Flip the direction of the 'SUMMIT' sign to point left. Change the hiker's jacket to be blue. Add two more clouds in the sky to the right of the existing lone cloud.",
+        "method": "maestro"
       }
     },
     {
@@ -190,14 +190,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/18.png",
-        "alt": "Introduce a dramatic sunset with a large sun near the horizon and intense orange and red colors in the sky, while darkening the clouds to create a more striking contrast",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/fluxKontext/18.png",
         "alt": "Introduce a dramatic sunset with a large sun near the horizon and intense orange and red colors in the sky, while darkening the clouds to create a more striking contrast",
         "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/18.png",
+        "alt": "Introduce a dramatic sunset with a large sun near the horizon and intense orange and red colors in the sky, while darkening the clouds to create a more striking contrast",
+        "method": "maestro"
       }
     },
     {
@@ -208,14 +208,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/fluxKontext/19.png",
-        "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
-        "method": "fluxKontext"
-      },
-      "imageB": {
         "url": "generation_test/maestro/19.png",
         "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/19.png",
+        "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
+        "method": "fluxKontext"
       }
     },
     {
@@ -280,14 +280,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/fluxKontext/22.png",
-        "alt": "Replace the beige leather rocking chair with a beige fabric upholstered modern recliner with a squared-off design and a matching fabric pillow. Remove the gray knitted throw blanket.",
-        "method": "fluxKontext"
-      },
-      "imageB": {
         "url": "generation_test/maestro/22.png",
         "alt": "Replace the beige leather rocking chair with a beige fabric upholstered modern recliner with a squared-off design and a matching fabric pillow. Remove the gray knitted throw blanket.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/22.png",
+        "alt": "Replace the beige leather rocking chair with a beige fabric upholstered modern recliner with a squared-off design and a matching fabric pillow. Remove the gray knitted throw blanket.",
+        "method": "fluxKontext"
       }
     },
     {
@@ -406,14 +406,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/29.png",
-        "alt": "Add anthropomorphic features to the teapot, including eyes, a mouth, arms with hands, and legs with feet, while maintaining the overall teapot shape and design elements.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/fluxKontext/29.png",
         "alt": "Add anthropomorphic features to the teapot, including eyes, a mouth, arms with hands, and legs with feet, while maintaining the overall teapot shape and design elements.",
         "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/29.png",
+        "alt": "Add anthropomorphic features to the teapot, including eyes, a mouth, arms with hands, and legs with feet, while maintaining the overall teapot shape and design elements.",
+        "method": "maestro"
       }
     },
     {
@@ -442,14 +442,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/4.png",
-        "alt": "Rotate the Ferrari so that the car is facing forwards and we see the front. Make the car black instead of red. Change the title above it to be 'GREAT MOTORCARS' instead of 'MILLER MOTORCARS' while maintaining the same font.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/fluxKontext/4.png",
         "alt": "Rotate the Ferrari so that the car is facing forwards and we see the front. Make the car black instead of red. Change the title above it to be 'GREAT MOTORCARS' instead of 'MILLER MOTORCARS' while maintaining the same font.",
         "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/4.png",
+        "alt": "Rotate the Ferrari so that the car is facing forwards and we see the front. Make the car black instead of red. Change the title above it to be 'GREAT MOTORCARS' instead of 'MILLER MOTORCARS' while maintaining the same font.",
+        "method": "maestro"
       }
     },
     {
@@ -532,14 +532,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/9.png",
-        "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/fluxKontext/9.png",
         "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
         "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/9.png",
+        "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
+        "method": "maestro"
       }
     }
   ]

@@ -42,7 +42,7 @@ def create_comparison_json(method_a, method_b, generation_test_dir="generation_t
     # Create the JSON structure
     comparison_data = {
         "title": "Image Preference Survey",
-        "description": "Please select the edited image with the best preservation, aesthetic and alignment to the instruction",
+        "description": "Please select the edited image with the best preservation, aesthetic and alignment to the instruction given the input reference image",
         "pages": []
     }
     

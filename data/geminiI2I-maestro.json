@@ -1,6 +1,6 @@
 {
   "title": "Image Preference Survey",
-  "description": "Please select the edited image with the best preservation, aesthetic and alignment to the instruction",
+  "description": "Please select the edited image with the best preservation, aesthetic and alignment to the instruction given the input reference image",
   "pages": [
     {
       "id": 1,
@@ -118,14 +118,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/14.png",
-        "alt": "Transform the scene into a thunderstorm scene with realistic lightning bolts striking the castle and heavy rain falling. Add a pack of four wolves on the grass at the base of the rocks and make all of them howl up at the sky. The castle and rocky terrain layout should not change.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/geminiI2I/14.png",
         "alt": "Transform the scene into a thunderstorm scene with realistic lightning bolts striking the castle and heavy rain falling. Add a pack of four wolves on the grass at the base of the rocks and make all of them howl up at the sky. The castle and rocky terrain layout should not change.",
         "method": "geminiI2I"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/14.png",
+        "alt": "Transform the scene into a thunderstorm scene with realistic lightning bolts striking the castle and heavy rain falling. Add a pack of four wolves on the grass at the base of the rocks and make all of them howl up at the sky. The castle and rocky terrain layout should not change.",
+        "method": "maestro"
       }
     },
     {
@@ -172,14 +172,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/geminiI2I/17.png",
-        "alt": "Inpaint so that it is visible that the zebra is drinking water from a stream. Add a mother baboon with a baby baboon on her back climbing up the tree.",
-        "method": "geminiI2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/17.png",
         "alt": "Inpaint so that it is visible that the zebra is drinking water from a stream. Add a mother baboon with a baby baboon on her back climbing up the tree.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/geminiI2I/17.png",
+        "alt": "Inpaint so that it is visible that the zebra is drinking water from a stream. Add a mother baboon with a baby baboon on her back climbing up the tree.",
+        "method": "geminiI2I"
       }
     },
     {
@@ -208,14 +208,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/geminiI2I/19.png",
-        "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
-        "method": "geminiI2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/19.png",
         "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/geminiI2I/19.png",
+        "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
+        "method": "geminiI2I"
       }
     },
     {
@@ -226,14 +226,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/geminiI2I/2.png",
-        "alt": "Replace the monarch butterfly with a realistic, fuzzy bumblebee with yellow and black stripes, hovering closely above the same pink peony flower, maintaining the same background and overall composition of the image.",
-        "method": "geminiI2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/2.png",
         "alt": "Replace the monarch butterfly with a realistic, fuzzy bumblebee with yellow and black stripes, hovering closely above the same pink peony flower, maintaining the same background and overall composition of the image.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/geminiI2I/2.png",
+        "alt": "Replace the monarch butterfly with a realistic, fuzzy bumblebee with yellow and black stripes, hovering closely above the same pink peony flower, maintaining the same background and overall composition of the image.",
+        "method": "geminiI2I"
       }
     },
     {
@@ -244,14 +244,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/geminiI2I/20.png",
-        "alt": "Transform the elderly man into a young ballet dancer, change the traditional Tai Chi attire to a ballet outfit, and adjust the pose to a ballet stance while maintaining the serene park setting and morning light.",
-        "method": "geminiI2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/20.png",
         "alt": "Transform the elderly man into a young ballet dancer, change the traditional Tai Chi attire to a ballet outfit, and adjust the pose to a ballet stance while maintaining the serene park setting and morning light.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/geminiI2I/20.png",
+        "alt": "Transform the elderly man into a young ballet dancer, change the traditional Tai Chi attire to a ballet outfit, and adjust the pose to a ballet stance while maintaining the serene park setting and morning light.",
+        "method": "geminiI2I"
       }
     },
     {
@@ -298,14 +298,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/23.png",
-        "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/geminiI2I/23.png",
         "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
         "method": "geminiI2I"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/23.png",
+        "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
+        "method": "maestro"
       }
     },
     {
@@ -334,14 +334,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/25.png",
-        "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/geminiI2I/25.png",
         "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
         "method": "geminiI2I"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/25.png",
+        "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
+        "method": "maestro"
       }
     },
     {
@@ -424,14 +424,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/geminiI2I/3.png",
-        "alt": "Transform the setting to a vibrant jazz club scene, with the dancer now in a sparkling costume performing a lively jazz dance, and replace the temple backdrop with a stage, curtains, and an audience under warm stage lighting.",
-        "method": "geminiI2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/3.png",
         "alt": "Transform the setting to a vibrant jazz club scene, with the dancer now in a sparkling costume performing a lively jazz dance, and replace the temple backdrop with a stage, curtains, and an audience under warm stage lighting.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/geminiI2I/3.png",
+        "alt": "Transform the setting to a vibrant jazz club scene, with the dancer now in a sparkling costume performing a lively jazz dance, and replace the temple backdrop with a stage, curtains, and an audience under warm stage lighting.",
+        "method": "geminiI2I"
       }
     },
     {
@@ -442,14 +442,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/geminiI2I/4.png",
-        "alt": "Rotate the Ferrari so that the car is facing forwards and we see the front. Make the car black instead of red. Change the title above it to be 'GREAT MOTORCARS' instead of 'MILLER MOTORCARS' while maintaining the same font.",
-        "method": "geminiI2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/4.png",
         "alt": "Rotate the Ferrari so that the car is facing forwards and we see the front. Make the car black instead of red. Change the title above it to be 'GREAT MOTORCARS' instead of 'MILLER MOTORCARS' while maintaining the same font.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/geminiI2I/4.png",
+        "alt": "Rotate the Ferrari so that the car is facing forwards and we see the front. Make the car black instead of red. Change the title above it to be 'GREAT MOTORCARS' instead of 'MILLER MOTORCARS' while maintaining the same font.",
+        "method": "geminiI2I"
       }
     },
     {
@@ -460,14 +460,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/5.png",
-        "alt": "Change the background so that the bike is leaning against a gaurdrail on a highway with a view of the ocean. Keep everything about the bike the same except it's color, make it red.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/geminiI2I/5.png",
         "alt": "Change the background so that the bike is leaning against a gaurdrail on a highway with a view of the ocean. Keep everything about the bike the same except it's color, make it red.",
         "method": "geminiI2I"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/5.png",
+        "alt": "Change the background so that the bike is leaning against a gaurdrail on a highway with a view of the ocean. Keep everything about the bike the same except it's color, make it red.",
+        "method": "maestro"
       }
     },
     {
@@ -532,14 +532,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/geminiI2I/9.png",
-        "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
-        "method": "geminiI2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/9.png",
         "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/geminiI2I/9.png",
+        "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
+        "method": "geminiI2I"
       }
     }
   ]
