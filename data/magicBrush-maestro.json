@@ -1,6 +1,6 @@
 {
   "title": "Image Preference Survey",
-  "description": "Please select the image with the best preservation, aesthetic and alignment to the instruction",
+  "description": "Please select the edited image with the best preservation, aesthetic and alignment to the instruction",
   "pages": [
     {
       "id": 1,
@@ -28,14 +28,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/1.png",
-        "alt": "Apply a rust texture to the wrench. Replace the second wrench further along the workbench with a screwdriver that has a wooden handle. Add copper nuts and bolts lines on the edge of the workbench to the left. Adjust the lighting to give a warmer and more dramatic effect in the room.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/1.png",
         "alt": "Apply a rust texture to the wrench. Replace the second wrench further along the workbench with a screwdriver that has a wooden handle. Add copper nuts and bolts lines on the edge of the workbench to the left. Adjust the lighting to give a warmer and more dramatic effect in the room.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/1.png",
+        "alt": "Apply a rust texture to the wrench. Replace the second wrench further along the workbench with a screwdriver that has a wooden handle. Add copper nuts and bolts lines on the edge of the workbench to the left. Adjust the lighting to give a warmer and more dramatic effect in the room.",
+        "method": "maestro"
       }
     },
     {
@@ -64,14 +64,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/11.png",
-        "alt": "Change the color of the kitchen cabinets to be vintage green. Add a stuffed turkey cooking inside the oven visible from the window. Add a stack of exactly three pots on the kitchen countertop and one single frying pan on the stove.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/11.png",
         "alt": "Change the color of the kitchen cabinets to be vintage green. Add a stuffed turkey cooking inside the oven visible from the window. Add a stack of exactly three pots on the kitchen countertop and one single frying pan on the stove.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/11.png",
+        "alt": "Change the color of the kitchen cabinets to be vintage green. Add a stuffed turkey cooking inside the oven visible from the window. Add a stack of exactly three pots on the kitchen countertop and one single frying pan on the stove.",
+        "method": "maestro"
       }
     },
     {
@@ -118,14 +118,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/14.png",
-        "alt": "Transform the scene into a thunderstorm scene with realistic lightning bolts striking the castle and heavy rain falling. Add a pack of four wolves on the grass at the base of the rocks and make all of them howl up at the sky. The castle and rocky terrain layout should not change.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/14.png",
         "alt": "Transform the scene into a thunderstorm scene with realistic lightning bolts striking the castle and heavy rain falling. Add a pack of four wolves on the grass at the base of the rocks and make all of them howl up at the sky. The castle and rocky terrain layout should not change.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/14.png",
+        "alt": "Transform the scene into a thunderstorm scene with realistic lightning bolts striking the castle and heavy rain falling. Add a pack of four wolves on the grass at the base of the rocks and make all of them howl up at the sky. The castle and rocky terrain layout should not change.",
+        "method": "maestro"
       }
     },
     {
@@ -154,14 +154,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/16.png",
-        "alt": "Alter the grassy mountain terrain to the left and right to be a rocky terrain. Flip the direction of the 'SUMMIT' sign to point left. Change the hiker's jacket to be blue. Add two more clouds in the sky to the right of the existing lone cloud.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/16.png",
         "alt": "Alter the grassy mountain terrain to the left and right to be a rocky terrain. Flip the direction of the 'SUMMIT' sign to point left. Change the hiker's jacket to be blue. Add two more clouds in the sky to the right of the existing lone cloud.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/16.png",
+        "alt": "Alter the grassy mountain terrain to the left and right to be a rocky terrain. Flip the direction of the 'SUMMIT' sign to point left. Change the hiker's jacket to be blue. Add two more clouds in the sky to the right of the existing lone cloud.",
+        "method": "maestro"
       }
     },
     {
@@ -172,14 +172,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/magicBrush/17.png",
-        "alt": "Inpaint so that it is visible that the zebra is drinking water from a stream. Add a mother baboon with a baby baboon on her back climbing up the tree.",
-        "method": "magicBrush"
-      },
-      "imageB": {
         "url": "generation_test/maestro/17.png",
         "alt": "Inpaint so that it is visible that the zebra is drinking water from a stream. Add a mother baboon with a baby baboon on her back climbing up the tree.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/magicBrush/17.png",
+        "alt": "Inpaint so that it is visible that the zebra is drinking water from a stream. Add a mother baboon with a baby baboon on her back climbing up the tree.",
+        "method": "magicBrush"
       }
     },
     {
@@ -190,14 +190,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/18.png",
-        "alt": "Introduce a dramatic sunset with a large sun near the horizon and intense orange and red colors in the sky, while darkening the clouds to create a more striking contrast",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/18.png",
         "alt": "Introduce a dramatic sunset with a large sun near the horizon and intense orange and red colors in the sky, while darkening the clouds to create a more striking contrast",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/18.png",
+        "alt": "Introduce a dramatic sunset with a large sun near the horizon and intense orange and red colors in the sky, while darkening the clouds to create a more striking contrast",
+        "method": "maestro"
       }
     },
     {
@@ -208,14 +208,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/19.png",
-        "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/19.png",
         "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/19.png",
+        "alt": "Apply an animated style to this image. Remove the existing bills and replace them with three new bills poking out of the wallet. The bills should read, '$100', '$20', and '$50' in that sequence. All the bills should be green.",
+        "method": "maestro"
       }
     },
     {
@@ -226,14 +226,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/2.png",
-        "alt": "Replace the monarch butterfly with a realistic, fuzzy bumblebee with yellow and black stripes, hovering closely above the same pink peony flower, maintaining the same background and overall composition of the image.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/2.png",
         "alt": "Replace the monarch butterfly with a realistic, fuzzy bumblebee with yellow and black stripes, hovering closely above the same pink peony flower, maintaining the same background and overall composition of the image.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/2.png",
+        "alt": "Replace the monarch butterfly with a realistic, fuzzy bumblebee with yellow and black stripes, hovering closely above the same pink peony flower, maintaining the same background and overall composition of the image.",
+        "method": "maestro"
       }
     },
     {
@@ -298,14 +298,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/23.png",
-        "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/23.png",
         "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/23.png",
+        "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
+        "method": "maestro"
       }
     },
     {
@@ -316,14 +316,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/24.png",
-        "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/24.png",
         "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/24.png",
+        "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
+        "method": "maestro"
       }
     },
     {
@@ -334,14 +334,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/magicBrush/25.png",
-        "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
-        "method": "magicBrush"
-      },
-      "imageB": {
         "url": "generation_test/maestro/25.png",
         "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/magicBrush/25.png",
+        "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
+        "method": "magicBrush"
       }
     },
     {
@@ -352,14 +352,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/26.png",
-        "alt": "Transform this image to be a Renaissance style painting. Remove the light fixture in the back and only let natural window light in. Remove the girl's glasses. Replace her pencil with a quill and her notebook with an old parchment. Preserve the rest of her pose, expression and appearance.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/26.png",
         "alt": "Transform this image to be a Renaissance style painting. Remove the light fixture in the back and only let natural window light in. Remove the girl's glasses. Replace her pencil with a quill and her notebook with an old parchment. Preserve the rest of her pose, expression and appearance.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/26.png",
+        "alt": "Transform this image to be a Renaissance style painting. Remove the light fixture in the back and only let natural window light in. Remove the girl's glasses. Replace her pencil with a quill and her notebook with an old parchment. Preserve the rest of her pose, expression and appearance.",
+        "method": "maestro"
       }
     },
     {
@@ -370,14 +370,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/magicBrush/27.png",
-        "alt": "Replace the two red sports cars with two 1800s era wooden horse carriages being pulled by horses. One of the horses should be black and the other should be white. Alter the paved asphalt to be a dirt road. Add a wooden sign on the road that says in chalk 'Speed Limit 60'. Keep the rest of the image as well as the background scenery the same.",
-        "method": "magicBrush"
-      },
-      "imageB": {
         "url": "generation_test/maestro/27.png",
         "alt": "Replace the two red sports cars with two 1800s era wooden horse carriages being pulled by horses. One of the horses should be black and the other should be white. Alter the paved asphalt to be a dirt road. Add a wooden sign on the road that says in chalk 'Speed Limit 60'. Keep the rest of the image as well as the background scenery the same.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/magicBrush/27.png",
+        "alt": "Replace the two red sports cars with two 1800s era wooden horse carriages being pulled by horses. One of the horses should be black and the other should be white. Alter the paved asphalt to be a dirt road. Add a wooden sign on the road that says in chalk 'Speed Limit 60'. Keep the rest of the image as well as the background scenery the same.",
+        "method": "magicBrush"
       }
     },
     {
@@ -388,14 +388,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/magicBrush/28.png",
-        "alt": "Open the laptop to show a space-themed skin covering the entire keyboard surface. Replace the pen with a small digital alarm clock that reads 03:13 in amber LED light. The screen of the laptop should be off.",
-        "method": "magicBrush"
-      },
-      "imageB": {
         "url": "generation_test/maestro/28.png",
         "alt": "Open the laptop to show a space-themed skin covering the entire keyboard surface. Replace the pen with a small digital alarm clock that reads 03:13 in amber LED light. The screen of the laptop should be off.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/magicBrush/28.png",
+        "alt": "Open the laptop to show a space-themed skin covering the entire keyboard surface. Replace the pen with a small digital alarm clock that reads 03:13 in amber LED light. The screen of the laptop should be off.",
+        "method": "magicBrush"
       }
     },
     {
@@ -424,14 +424,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/magicBrush/3.png",
-        "alt": "Transform the setting to a vibrant jazz club scene, with the dancer now in a sparkling costume performing a lively jazz dance, and replace the temple backdrop with a stage, curtains, and an audience under warm stage lighting.",
-        "method": "magicBrush"
-      },
-      "imageB": {
         "url": "generation_test/maestro/3.png",
         "alt": "Transform the setting to a vibrant jazz club scene, with the dancer now in a sparkling costume performing a lively jazz dance, and replace the temple backdrop with a stage, curtains, and an audience under warm stage lighting.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/magicBrush/3.png",
+        "alt": "Transform the setting to a vibrant jazz club scene, with the dancer now in a sparkling costume performing a lively jazz dance, and replace the temple backdrop with a stage, curtains, and an audience under warm stage lighting.",
+        "method": "magicBrush"
       }
     },
     {
@@ -478,14 +478,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/6.png",
-        "alt": "Change the color of the car to be white and make the license plate read 'JUST MARRIED'. Instead of it being daytime, make it nighttime with a starry sky. Add streetlights so the road appears bright and add people on both sides of the road who are cheering!",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/6.png",
         "alt": "Change the color of the car to be white and make the license plate read 'JUST MARRIED'. Instead of it being daytime, make it nighttime with a starry sky. Add streetlights so the road appears bright and add people on both sides of the road who are cheering!",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/6.png",
+        "alt": "Change the color of the car to be white and make the license plate read 'JUST MARRIED'. Instead of it being daytime, make it nighttime with a starry sky. Add streetlights so the road appears bright and add people on both sides of the road who are cheering!",
+        "method": "maestro"
       }
     },
     {
@@ -496,14 +496,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/7.png",
-        "alt": "Fill in the empty white hole on the center watermelon slice as well as the cucumber on the right of the cake. Add three more black seeds to the watermelom for a total of six. Maintain the rest of the image and keep the cake and other compositions the same.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/magicBrush/7.png",
         "alt": "Fill in the empty white hole on the center watermelon slice as well as the cucumber on the right of the cake. Add three more black seeds to the watermelom for a total of six. Maintain the rest of the image and keep the cake and other compositions the same.",
         "method": "magicBrush"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/7.png",
+        "alt": "Fill in the empty white hole on the center watermelon slice as well as the cucumber on the right of the cake. Add three more black seeds to the watermelom for a total of six. Maintain the rest of the image and keep the cake and other compositions the same.",
+        "method": "maestro"
       }
     },
     {

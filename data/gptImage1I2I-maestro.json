@@ -1,6 +1,6 @@
 {
   "title": "Image Preference Survey",
-  "description": "Please select the image with the best preservation, aesthetic and alignment to the instruction",
+  "description": "Please select the edited image with the best preservation, aesthetic and alignment to the instruction",
   "pages": [
     {
       "id": 1,
@@ -28,14 +28,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/1.png",
-        "alt": "Apply a rust texture to the wrench. Replace the second wrench further along the workbench with a screwdriver that has a wooden handle. Add copper nuts and bolts lines on the edge of the workbench to the left. Adjust the lighting to give a warmer and more dramatic effect in the room.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/1.png",
         "alt": "Apply a rust texture to the wrench. Replace the second wrench further along the workbench with a screwdriver that has a wooden handle. Add copper nuts and bolts lines on the edge of the workbench to the left. Adjust the lighting to give a warmer and more dramatic effect in the room.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/1.png",
+        "alt": "Apply a rust texture to the wrench. Replace the second wrench further along the workbench with a screwdriver that has a wooden handle. Add copper nuts and bolts lines on the edge of the workbench to the left. Adjust the lighting to give a warmer and more dramatic effect in the room.",
+        "method": "gptImage1I2I"
       }
     },
     {
@@ -82,14 +82,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/12.png",
-        "alt": "Remove the lemon slices inside the glass, fill the glass with orange juice and turn the slice on the rim into an orange slice.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/12.png",
         "alt": "Remove the lemon slices inside the glass, fill the glass with orange juice and turn the slice on the rim into an orange slice.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/12.png",
+        "alt": "Remove the lemon slices inside the glass, fill the glass with orange juice and turn the slice on the rim into an orange slice.",
+        "method": "gptImage1I2I"
       }
     },
     {
@@ -118,14 +118,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/14.png",
-        "alt": "Transform the scene into a thunderstorm scene with realistic lightning bolts striking the castle and heavy rain falling. Add a pack of four wolves on the grass at the base of the rocks and make all of them howl up at the sky. The castle and rocky terrain layout should not change.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/14.png",
         "alt": "Transform the scene into a thunderstorm scene with realistic lightning bolts striking the castle and heavy rain falling. Add a pack of four wolves on the grass at the base of the rocks and make all of them howl up at the sky. The castle and rocky terrain layout should not change.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/14.png",
+        "alt": "Transform the scene into a thunderstorm scene with realistic lightning bolts striking the castle and heavy rain falling. Add a pack of four wolves on the grass at the base of the rocks and make all of them howl up at the sky. The castle and rocky terrain layout should not change.",
+        "method": "gptImage1I2I"
       }
     },
     {
@@ -172,14 +172,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/17.png",
-        "alt": "Inpaint so that it is visible that the zebra is drinking water from a stream. Add a mother baboon with a baby baboon on her back climbing up the tree.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/gptImage1I2I/17.png",
         "alt": "Inpaint so that it is visible that the zebra is drinking water from a stream. Add a mother baboon with a baby baboon on her back climbing up the tree.",
         "method": "gptImage1I2I"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/17.png",
+        "alt": "Inpaint so that it is visible that the zebra is drinking water from a stream. Add a mother baboon with a baby baboon on her back climbing up the tree.",
+        "method": "maestro"
       }
     },
     {
@@ -244,14 +244,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/20.png",
-        "alt": "Transform the elderly man into a young ballet dancer, change the traditional Tai Chi attire to a ballet outfit, and adjust the pose to a ballet stance while maintaining the serene park setting and morning light.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/20.png",
         "alt": "Transform the elderly man into a young ballet dancer, change the traditional Tai Chi attire to a ballet outfit, and adjust the pose to a ballet stance while maintaining the serene park setting and morning light.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/20.png",
+        "alt": "Transform the elderly man into a young ballet dancer, change the traditional Tai Chi attire to a ballet outfit, and adjust the pose to a ballet stance while maintaining the serene park setting and morning light.",
+        "method": "gptImage1I2I"
       }
     },
     {
@@ -280,14 +280,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/22.png",
-        "alt": "Replace the beige leather rocking chair with a beige fabric upholstered modern recliner with a squared-off design and a matching fabric pillow. Remove the gray knitted throw blanket.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/22.png",
         "alt": "Replace the beige leather rocking chair with a beige fabric upholstered modern recliner with a squared-off design and a matching fabric pillow. Remove the gray knitted throw blanket.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/22.png",
+        "alt": "Replace the beige leather rocking chair with a beige fabric upholstered modern recliner with a squared-off design and a matching fabric pillow. Remove the gray knitted throw blanket.",
+        "method": "gptImage1I2I"
       }
     },
     {
@@ -316,14 +316,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/24.png",
-        "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/gptImage1I2I/24.png",
         "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
         "method": "gptImage1I2I"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/24.png",
+        "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
+        "method": "maestro"
       }
     },
     {
@@ -334,14 +334,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/25.png",
-        "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/gptImage1I2I/25.png",
         "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
         "method": "gptImage1I2I"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/25.png",
+        "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
+        "method": "maestro"
       }
     },
     {
@@ -406,14 +406,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/29.png",
-        "alt": "Add anthropomorphic features to the teapot, including eyes, a mouth, arms with hands, and legs with feet, while maintaining the overall teapot shape and design elements.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/29.png",
         "alt": "Add anthropomorphic features to the teapot, including eyes, a mouth, arms with hands, and legs with feet, while maintaining the overall teapot shape and design elements.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/29.png",
+        "alt": "Add anthropomorphic features to the teapot, including eyes, a mouth, arms with hands, and legs with feet, while maintaining the overall teapot shape and design elements.",
+        "method": "gptImage1I2I"
       }
     },
     {
@@ -424,14 +424,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/3.png",
-        "alt": "Transform the setting to a vibrant jazz club scene, with the dancer now in a sparkling costume performing a lively jazz dance, and replace the temple backdrop with a stage, curtains, and an audience under warm stage lighting.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/3.png",
         "alt": "Transform the setting to a vibrant jazz club scene, with the dancer now in a sparkling costume performing a lively jazz dance, and replace the temple backdrop with a stage, curtains, and an audience under warm stage lighting.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/3.png",
+        "alt": "Transform the setting to a vibrant jazz club scene, with the dancer now in a sparkling costume performing a lively jazz dance, and replace the temple backdrop with a stage, curtains, and an audience under warm stage lighting.",
+        "method": "gptImage1I2I"
       }
     },
     {
@@ -460,14 +460,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/5.png",
-        "alt": "Change the background so that the bike is leaning against a gaurdrail on a highway with a view of the ocean. Keep everything about the bike the same except it's color, make it red.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/5.png",
         "alt": "Change the background so that the bike is leaning against a gaurdrail on a highway with a view of the ocean. Keep everything about the bike the same except it's color, make it red.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/5.png",
+        "alt": "Change the background so that the bike is leaning against a gaurdrail on a highway with a view of the ocean. Keep everything about the bike the same except it's color, make it red.",
+        "method": "gptImage1I2I"
       }
     },
     {
@@ -514,14 +514,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/gptImage1I2I/8.png",
-        "alt": "Instead of a square corner shelf, make it a triangular corner shelf. Change the color of the circle light to be neon blue and update the lighting in the room to reflect that.",
-        "method": "gptImage1I2I"
-      },
-      "imageB": {
         "url": "generation_test/maestro/8.png",
         "alt": "Instead of a square corner shelf, make it a triangular corner shelf. Change the color of the circle light to be neon blue and update the lighting in the room to reflect that.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/gptImage1I2I/8.png",
+        "alt": "Instead of a square corner shelf, make it a triangular corner shelf. Change the color of the circle light to be neon blue and update the lighting in the room to reflect that.",
+        "method": "gptImage1I2I"
       }
     },
     {

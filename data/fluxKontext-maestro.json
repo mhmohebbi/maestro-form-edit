@@ -1,6 +1,6 @@
 {
   "title": "Image Preference Survey",
-  "description": "Please select the image with the best preservation, aesthetic and alignment to the instruction",
+  "description": "Please select the edited image with the best preservation, aesthetic and alignment to the instruction",
   "pages": [
     {
       "id": 1,
@@ -100,14 +100,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/13.png",
-        "alt": "Edit the sign that says 'Fast Lane' to say 'Slow Lane', but keep the style, font and rest of the sign as is. Replace the flag hung on the wall to the right with an American flag. Change the white part of the car's tires to be yellow. Maintain the rest of the image composition.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/fluxKontext/13.png",
         "alt": "Edit the sign that says 'Fast Lane' to say 'Slow Lane', but keep the style, font and rest of the sign as is. Replace the flag hung on the wall to the right with an American flag. Change the white part of the car's tires to be yellow. Maintain the rest of the image composition.",
         "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/13.png",
+        "alt": "Edit the sign that says 'Fast Lane' to say 'Slow Lane', but keep the style, font and rest of the sign as is. Replace the flag hung on the wall to the right with an American flag. Change the white part of the car's tires to be yellow. Maintain the rest of the image composition.",
+        "method": "maestro"
       }
     },
     {
@@ -154,14 +154,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/fluxKontext/16.png",
-        "alt": "Alter the grassy mountain terrain to the left and right to be a rocky terrain. Flip the direction of the 'SUMMIT' sign to point left. Change the hiker's jacket to be blue. Add two more clouds in the sky to the right of the existing lone cloud.",
-        "method": "fluxKontext"
-      },
-      "imageB": {
         "url": "generation_test/maestro/16.png",
         "alt": "Alter the grassy mountain terrain to the left and right to be a rocky terrain. Flip the direction of the 'SUMMIT' sign to point left. Change the hiker's jacket to be blue. Add two more clouds in the sky to the right of the existing lone cloud.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/16.png",
+        "alt": "Alter the grassy mountain terrain to the left and right to be a rocky terrain. Flip the direction of the 'SUMMIT' sign to point left. Change the hiker's jacket to be blue. Add two more clouds in the sky to the right of the existing lone cloud.",
+        "method": "fluxKontext"
       }
     },
     {
@@ -244,14 +244,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/20.png",
-        "alt": "Transform the elderly man into a young ballet dancer, change the traditional Tai Chi attire to a ballet outfit, and adjust the pose to a ballet stance while maintaining the serene park setting and morning light.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/fluxKontext/20.png",
         "alt": "Transform the elderly man into a young ballet dancer, change the traditional Tai Chi attire to a ballet outfit, and adjust the pose to a ballet stance while maintaining the serene park setting and morning light.",
         "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/20.png",
+        "alt": "Transform the elderly man into a young ballet dancer, change the traditional Tai Chi attire to a ballet outfit, and adjust the pose to a ballet stance while maintaining the serene park setting and morning light.",
+        "method": "maestro"
       }
     },
     {
@@ -298,14 +298,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/fluxKontext/23.png",
-        "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
-        "method": "fluxKontext"
-      },
-      "imageB": {
         "url": "generation_test/maestro/23.png",
         "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/23.png",
+        "alt": "Change the colors of the cars in the middle and on the right to match the car on the left. Add six sailboats out in the distant ocean background.",
+        "method": "fluxKontext"
       }
     },
     {
@@ -316,14 +316,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/fluxKontext/24.png",
-        "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
-        "method": "fluxKontext"
-      },
-      "imageB": {
         "url": "generation_test/maestro/24.png",
         "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/24.png",
+        "alt": "Remove the sign on the right wall that reads 'Zane's beach'. Edit the sign on the shelf to say 'Happy' instead of 'Relax'. Replace the painting frame above the bed with a TV that is playing a soccer match.",
+        "method": "fluxKontext"
       }
     },
     {
@@ -334,14 +334,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/25.png",
-        "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/fluxKontext/25.png",
         "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
         "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/25.png",
+        "alt": "Change the setting to autumn with a ground covered in fallen leaves, add a tree with red leaves above the swing, and apply a foggy, early morning atmosphere.",
+        "method": "maestro"
       }
     },
     {
@@ -352,14 +352,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/26.png",
-        "alt": "Transform this image to be a Renaissance style painting. Remove the light fixture in the back and only let natural window light in. Remove the girl's glasses. Replace her pencil with a quill and her notebook with an old parchment. Preserve the rest of her pose, expression and appearance.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/fluxKontext/26.png",
         "alt": "Transform this image to be a Renaissance style painting. Remove the light fixture in the back and only let natural window light in. Remove the girl's glasses. Replace her pencil with a quill and her notebook with an old parchment. Preserve the rest of her pose, expression and appearance.",
         "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/26.png",
+        "alt": "Transform this image to be a Renaissance style painting. Remove the light fixture in the back and only let natural window light in. Remove the girl's glasses. Replace her pencil with a quill and her notebook with an old parchment. Preserve the rest of her pose, expression and appearance.",
+        "method": "maestro"
       }
     },
     {
@@ -388,14 +388,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/fluxKontext/28.png",
-        "alt": "Open the laptop to show a space-themed skin covering the entire keyboard surface. Replace the pen with a small digital alarm clock that reads 03:13 in amber LED light. The screen of the laptop should be off.",
-        "method": "fluxKontext"
-      },
-      "imageB": {
         "url": "generation_test/maestro/28.png",
         "alt": "Open the laptop to show a space-themed skin covering the entire keyboard surface. Replace the pen with a small digital alarm clock that reads 03:13 in amber LED light. The screen of the laptop should be off.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/28.png",
+        "alt": "Open the laptop to show a space-themed skin covering the entire keyboard surface. Replace the pen with a small digital alarm clock that reads 03:13 in amber LED light. The screen of the laptop should be off.",
+        "method": "fluxKontext"
       }
     },
     {
@@ -406,14 +406,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/fluxKontext/29.png",
-        "alt": "Add anthropomorphic features to the teapot, including eyes, a mouth, arms with hands, and legs with feet, while maintaining the overall teapot shape and design elements.",
-        "method": "fluxKontext"
-      },
-      "imageB": {
         "url": "generation_test/maestro/29.png",
         "alt": "Add anthropomorphic features to the teapot, including eyes, a mouth, arms with hands, and legs with feet, while maintaining the overall teapot shape and design elements.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/29.png",
+        "alt": "Add anthropomorphic features to the teapot, including eyes, a mouth, arms with hands, and legs with feet, while maintaining the overall teapot shape and design elements.",
+        "method": "fluxKontext"
       }
     },
     {
@@ -424,14 +424,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/3.png",
-        "alt": "Transform the setting to a vibrant jazz club scene, with the dancer now in a sparkling costume performing a lively jazz dance, and replace the temple backdrop with a stage, curtains, and an audience under warm stage lighting.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/fluxKontext/3.png",
         "alt": "Transform the setting to a vibrant jazz club scene, with the dancer now in a sparkling costume performing a lively jazz dance, and replace the temple backdrop with a stage, curtains, and an audience under warm stage lighting.",
         "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/3.png",
+        "alt": "Transform the setting to a vibrant jazz club scene, with the dancer now in a sparkling costume performing a lively jazz dance, and replace the temple backdrop with a stage, curtains, and an audience under warm stage lighting.",
+        "method": "maestro"
       }
     },
     {
@@ -460,14 +460,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/maestro/5.png",
-        "alt": "Change the background so that the bike is leaning against a gaurdrail on a highway with a view of the ocean. Keep everything about the bike the same except it's color, make it red.",
-        "method": "maestro"
-      },
-      "imageB": {
         "url": "generation_test/fluxKontext/5.png",
         "alt": "Change the background so that the bike is leaning against a gaurdrail on a highway with a view of the ocean. Keep everything about the bike the same except it's color, make it red.",
         "method": "fluxKontext"
+      },
+      "imageB": {
+        "url": "generation_test/maestro/5.png",
+        "alt": "Change the background so that the bike is leaning against a gaurdrail on a highway with a view of the ocean. Keep everything about the bike the same except it's color, make it red.",
+        "method": "maestro"
       }
     },
     {
@@ -478,14 +478,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/fluxKontext/6.png",
-        "alt": "Change the color of the car to be white and make the license plate read 'JUST MARRIED'. Instead of it being daytime, make it nighttime with a starry sky. Add streetlights so the road appears bright and add people on both sides of the road who are cheering!",
-        "method": "fluxKontext"
-      },
-      "imageB": {
         "url": "generation_test/maestro/6.png",
         "alt": "Change the color of the car to be white and make the license plate read 'JUST MARRIED'. Instead of it being daytime, make it nighttime with a starry sky. Add streetlights so the road appears bright and add people on both sides of the road who are cheering!",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/6.png",
+        "alt": "Change the color of the car to be white and make the license plate read 'JUST MARRIED'. Instead of it being daytime, make it nighttime with a starry sky. Add streetlights so the road appears bright and add people on both sides of the road who are cheering!",
+        "method": "fluxKontext"
       }
     },
     {
@@ -496,14 +496,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/fluxKontext/7.png",
-        "alt": "Fill in the empty white hole on the center watermelon slice as well as the cucumber on the right of the cake. Add three more black seeds to the watermelom for a total of six. Maintain the rest of the image and keep the cake and other compositions the same.",
-        "method": "fluxKontext"
-      },
-      "imageB": {
         "url": "generation_test/maestro/7.png",
         "alt": "Fill in the empty white hole on the center watermelon slice as well as the cucumber on the right of the cake. Add three more black seeds to the watermelom for a total of six. Maintain the rest of the image and keep the cake and other compositions the same.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/7.png",
+        "alt": "Fill in the empty white hole on the center watermelon slice as well as the cucumber on the right of the cake. Add three more black seeds to the watermelom for a total of six. Maintain the rest of the image and keep the cake and other compositions the same.",
+        "method": "fluxKontext"
       }
     },
     {
@@ -532,14 +532,14 @@
         "alt": "Reference image"
       },
       "imageA": {
-        "url": "generation_test/fluxKontext/9.png",
-        "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
-        "method": "fluxKontext"
-      },
-      "imageB": {
         "url": "generation_test/maestro/9.png",
         "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
         "method": "maestro"
+      },
+      "imageB": {
+        "url": "generation_test/fluxKontext/9.png",
+        "alt": "Add a person sitting in each of the four empty chairs without changing the layout of any of the chairs, tables or background. Add a bowl of fruit on top of the table to the right. Make only the person sitting in the far back left chair hold an apple.",
+        "method": "fluxKontext"
       }
     }
   ]
