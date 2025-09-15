@@ -1,8 +1,62 @@
 const express = require('express');
 const path = require('path');
 const fs = require('fs');
+const nodemailer = require('nodemailer');
 const app = express();
 const PORT = process.env.PORT || 3000;
+
+// Email configuration (hardcoded for testing; works locally and on Heroku)
+const EMAIL_USER = 'hossein@mimeticdata.ai';
+const EMAIL_PASS = 'yeeakzynclybmnkc';
+
+const transporter = nodemailer.createTransport({
+    host: 'smtp.gmail.com',
+    port: 587,
+    secure: false, // STARTTLS
+    requireTLS: true,
+    auth: {
+        user: EMAIL_USER,
+        pass: EMAIL_PASS
+    },
+    tls: {
+        minVersion: 'TLSv1.2'
+    },
+    connectionTimeout: 15000,
+    greetingTimeout: 10000,
+    socketTimeout: 20000
+});
+
+// Function to send email with CSV attachment
+async function sendCSVEmail(csvPath, sessionId, surveyCode) {
+    try {
+        const mailOptions = {
+            from: EMAIL_USER,
+            to: 'mhmohebb@uwaterloo.ca',
+            subject: `Survey Responses - Session ${sessionId}`,
+            text: `New survey responses have been submitted.\n\nSession ID: ${sessionId}\nSurvey Code: ${surveyCode}\nTimestamp: ${new Date().toISOString()}\n\nThe CSV file with all responses is attached.`,
+            html: `
+                <h2>New Survey Responses Submitted</h2>
+                <p><strong>Session ID:</strong> ${sessionId}</p>
+                <p><strong>Survey Code:</strong> ${surveyCode}</p>
+                <p><strong>Timestamp:</strong> ${new Date().toISOString()}</p>
+                <p>The CSV file with all responses is attached to this email.</p>
+            `,
+            attachments: [
+                {
+                    filename: 'survey-responses.csv',
+                    path: csvPath
+                }
+            ]
+        };
+
+        await transporter.sendMail(mailOptions);
+        console.log(`Email sent successfully for session ${sessionId}`);
+        return true;
+    } catch (error) {
+        console.error('Error sending email:', error);
+        return false;
+    }
+}
 
 // Middleware
 app.use(express.static('public'));
@@ -60,7 +114,7 @@ app.post('/api/form-data', (req, res) => {
 });
 
 // API endpoint to submit responses
-app.post('/api/submit', (req, res) => {
+app.post('/api/submit', async (req, res) => {
     try {
         const responses = req.body;
         const timestamp = new Date().toISOString();
@@ -95,11 +149,15 @@ app.post('/api/submit', (req, res) => {
         
         // Append to CSV file
         fs.appendFileSync(csvPath, csvContent);
+
+        // Send email with CSV attachment
+        const emailSent = await sendCSVEmail(csvPath, responses.sessionId, responses.surveyCode || 'unknown');
         
         res.json({ 
             success: true, 
-            message: 'Responses saved successfully',
-            sessionId: responses.sessionId 
+            message: 'Responses saved successfully' + (emailSent ? ' and email sent' : ' but email failed'),
+            sessionId: responses.sessionId,
+            emailSent: emailSent
         });
     } catch (error) {
         console.error('Error saving responses:', error);
